@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cuisinier</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btSend">Envoyer</string>
+    <string name="getit">Reçu</string>
+    <string name="served">A Prendre</string>
+    <string name="ready">Prêt</string>
+    <string name="title">RestoCommand</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="listtable">Liste des tables</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+</resources>

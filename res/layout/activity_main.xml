@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    tools:context="com.resto.cuisinier.MainActivity">
+<RelativeLayout 
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="0.3"
+    android:background="#205569">
+
+    <TextView
+        android:id="@+id/tablelistid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/listtable"
+        android:textSize="50sp"
+        android:textColor="#e4f1fd" />
+    <TextView
+        android:id="@+id/listtable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tablelistid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:text="Tables ouverte"
+        android:textSize="30sp"
+        android:textColor="#e4f1fd" />
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/listtable"
+        android:id="@+id/orderlist"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" 
+        >
+
+    </ListView>
+     <TextView
+        android:id="@+id/listOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderlist"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="Ordre à emporté"
+        android:textSize="30sp"
+        android:textColor="#e4f1fd" />
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/listOrder"
+        android:id="@+id/orderdelevlist"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" 
+        >
+
+    </ListView>
+   </RelativeLayout>
+    <FrameLayout 
+        android:id="@+id/framecontent"
+       	android:layout_width="0dp"
+        android:layout_height="wrap_content" 
+        android:layout_weight="0.7" >
+        
+    </FrameLayout>
+
+</LinearLayout>
